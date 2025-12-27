@@ -25,7 +25,7 @@ jobs:
 
       - name: Install RenderCV
         run: |
-          pip install rendercv
+          pip install "rendercv[full]"
           
       - name: Render CV
         run: rendercv render Mihai_Ciocan_CV.yaml
