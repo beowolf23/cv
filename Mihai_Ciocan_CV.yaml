@@ -1,0 +1,150 @@
+cv:
+  name: Mihai Ciocan
+  location: Bucharest, Romania
+  email: mihaiciocan44@gmail.com
+  phone: "+40 737 605 900"
+  website: https://ciocmih.dev/
+  social_networks:
+    - network: LinkedIn
+      username: mihai-ciocan
+    - network: GitHub
+      username: beowolf23
+
+  sections:
+    professional_summary:
+      - "Senior Software Engineer with **5+ years** building **fintech** and **enterprise cloud** systems. Delivered **event-driven platforms** at **Tide.co** and **Dell** handling **tens of thousands of events/sec** with **P95 <500ms**."
+      - "**DevOps ownership** end-to-end: **GitHub Actions**, **Docker**, and **Kubernetes** delivery platforms. Interests: **security (OIDC)**, **FinOps**, and scalable architecture with measurable business impact."
+
+    technical_skills:
+      - label: Core
+        details: Java/Kotlin, Spring Boot, AWS/GCP, Kubernetes, PostgreSQL, Kafka, Terraform, GitHub Actions
+      - label: Also
+        details: Python, Go, Redis, OpenTelemetry, Prometheus/Grafana, Loki, React/Next.js, Tailwind
+      - label: Security
+        details: OIDC/OAuth2, JWT, OWASP Top 10
+
+    experience:
+      - company: Dell
+        position: Software Engineer
+        location: Remote / Bucharest
+        start_date: 2025-10
+        end_date: present
+        highlights:
+          - Spearheading the **NextGen Support Service**, replacing legacy polling with a **RabbitMQ-driven event-stream** and synchronous **Webhook orchestration** for real-time case updates.
+          - Architected an end-to-end **GitHub Actions CI/CD pipeline** from scratch, automating Java builds, Dockerization, Harbor publishing, and deployment to self-managed **Kubernetes**.
+          - Implementing **OpenID Connect (OIDC)** at the gateway level to ensure enterprise-grade security and identity federation across Dell's client-facing services.
+
+      - company: Tide.co
+        position: Backend Engineer
+        location: London, UK (Remote)
+        start_date: 2025-09
+        end_date: present
+        highlights:
+          - Architected the **"Instant Loan" product**, directly enabling **millions of pounds in loan originations** within the first 60 days of launch.
+          - Engineered high-throughput microservices handling **tens of thousands of events/sec** at peak, maintaining a **P95 latency <500ms** across a **200+ service ecosystem**.
+          - Leading the credit-limits decoupling initiative to enable **"Shared Limits"**, improving utilization and driving interest revenue.
+          - Built a **limit-calculation algorithm** for shared credit products, optimizing per-product utilization and increasing Instant Loan volume.
+          - Delivered in a regulated **FCA / Open Banking** environment with **95%+ test coverage** and zero-downtime releases.
+
+      - company: Deutsche Bank
+        position: Senior Software Engineer
+        location: Bucharest, Romania
+        start_date: 2025-07
+        end_date: 2025-10
+        highlights:
+          - Led end-to-end delivery of **developer productivity tooling** adopted across multiple divisions.
+          - Built services with **Kotlin/Spring** integrating **GitHub GraphQL** and **Bitbucket REST** APIs (via **Apache Camel**).
+          - Shipped on **GKE** using **Docker/Buildpacks**, **GitHub Workflows**, and **Terraform** automation.
+          - Drove adoption through workshops and KPI-oriented rollout aligned to **DORA/SPACE** metrics.
+
+      - company: Deutsche Bank
+        position: Software Engineer
+        location: Bucharest, Romania
+        start_date: 2022-08
+        end_date: 2025-07
+        highlights:
+          - Led 3 engineers to deliver **automation features** reducing operational costs by **30%**.
+          - Designed **distributed microservices** with **Spring Boot**, **Redis**, and **Google Cloud Platform**, emphasizing **scalability and robustness**.
+          - Integrated **OpenTelemetry** for tracing and **Grafana/Loki** for real-time system monitoring.
+          - Automated CI/CD workflows using **GitHub Actions** and **TeamCity**, improving deployment speed by **50%**.
+          - Migrated legacy distribution to **Microsoft Intune** using **Java** and **Graph API**.
+
+      - company: University Politehnica of Bucharest
+        position: Lab Assistant
+        location: Bucharest, Romania
+        start_date: 2024-10
+        end_date: 2025-09
+        highlights:
+          - Guided **30+ students** in web security labs, improving coding proficiency by **20%**.
+          - Facilitated courses on **OWASP Top 10 vulnerabilities** for **50+ students**.
+
+      - company: Deutsche Bank
+        position: Software Engineer Intern
+        location: Bucharest, Romania
+        start_date: 2022-03
+        end_date: 2022-07
+        highlights:
+          - Developed **full-stack e-learning platform** with **Spring Boot** and **React**.
+          - Implemented **secure REST APIs** with **OIDC** authentication and authorization.
+
+    education:
+      - institution: University Politehnica of Bucharest
+        area: Cybersecurity
+        degree: MS
+        start_date: 2024-10
+        end_date: 2025-10
+        highlights:
+          - "**Focus Areas:** Secure Software Development, Network Security, Threat Intelligence"
+
+      - institution: University Politehnica of Bucharest
+        area: Computer Science
+        degree: BS
+        start_date: 2020-10
+        end_date: 2024-07
+        highlights:
+          - "GPA: **9.0/10.0**"
+          - "**Coursework:** Object-Oriented Programming, Operating Systems, Web Development"
+
+    projects:
+      - name: AI-Powered Semantic Search Platform
+        date: 2025-04
+        highlights:
+          - Designed a SaaS system with **AI-powered OCR** and **semantic search** using **vector embeddings** in **PostgreSQL**, enabling **natural language content discovery**.
+          - Implemented **retrieval-augmented generation (RAG)** for intelligent query results over financial documents.
+          - Built UI with **Next.js**, **Tailwind CSS**, and **shadcn/ui** to optimize user search experience.
+
+      - name: Spring Boot Microservices Bootstrapper Platform
+        link: https://github.com/beowolf23/store-management
+        highlights:
+          - Built a reusable, enterprise-grade **microservices template** with **Spring Boot 3.4** for rapid development of product, order, inventory, and payment services.
+          - Shipping infra as code with **Terraform** (AWS/GCP), plus **Kubernetes-ready** deployments and CI/CD.
+          - Added observability with **OpenTelemetry** and the **Grafana/Loki** stack; event-driven data flow using **PostgreSQL/Kafka/Redis**.
+          - Secured APIs via **gateway** patterns (**OAuth2/JWT**) and automated testing (**JUnit + integration tests**).
+
+    certifications:
+      - label: Google Cloud Platform
+        details: Associate Cloud Engineer (2024), Generative AI Developer (2025)
+      - label: Security
+        details: HackTheBox Bug Bounty Hunter (2024)
+
+design:
+  theme: classic
+  page:
+    size: a4
+    top_margin: 1.6cm
+    bottom_margin: 1.6cm
+    left_margin: 1.8cm
+    right_margin: 1.8cm
+    show_footer: true
+  typography:
+    font_size:
+      body: 10pt
+      name: 28pt
+      headline: 9.5pt
+      connections: 8.5pt
+      section_titles: 1.3em
+  colors:
+    name: "rgb(0, 79, 144)"
+    section_titles: "rgb(0, 79, 144)"
+    connections: "rgb(0, 79, 144)"
+    links: "rgb(0, 79, 144)"
